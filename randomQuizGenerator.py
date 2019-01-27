@@ -4,18 +4,18 @@ import random
 
 # The quiz data; Keys are countries and values are their capitals
 capitals = {"Afghanistan": "Kabul", "Argentina": "Buenos Aires", "Australia": "Canberra",
-            "Austria": "Vienna", "Bangladesh": "Dhaka", "Belgium": "Brussels", "Brazil" : "Brasilia",
-            "Cameroon" : "Yaounde", "Canada" : "Ottawa",  "Chile" : "Santiago", "China" : "Beijing",
-            "Colombia" : "Bogota", "Costa Rica" : "San Jose", "Croatia" : "Zagreb", "Cuba" : "Havana",
-            "Czech Republic" : "Prague", "Denmark" : "Copenhagen", "Egypt" : "Cairo", "El Salvador" : "San Salvador",
-            "France" : "Paris", "Germany" : "Berlin", "Greece" : "Athens", "India" : "New Delhi",  "Italy" : "Rome",
-            "Japan" : "Tokyo", "Jordan" : "Amman", "Mexico" : "Mexico City", "Nepal" : "Kathmandu",
-            "Netherlands" : "Amsterdam", "Pakistan" : "Islamabad",  "Peru" : "Lima", "Philippines" : "Manila",
-            "Poland" : "Warsaw", "Portugal" : "Lisbon", "Qatar" : "Doha", "Romania" : "Bucharest",
-            "Russia" : "Moscow", "Saudi Arabia" : "Riyadh", "Senegal" : "Dakar", "Serbia" : "Belgrade",
-            "Singapore" : "Singapore", "Slovakia" : "Bratislava",  "Spain" : "Madrid", "Sri Lanka" : "Colombo",
-            "Sweden": "Stockholm", "Switzerland" : "Bern", "Thailand" : "Bangkok", "Ukraine" : "Kyiv",
-            "United Kingdom" : "London", "United States of America" : "Washington, D.C."}
+            "Austria": "Vienna", "Bangladesh": "Dhaka", "Belgium": "Brussels", "Brazil": "Brasilia",
+            "Cameroon": "Yaounde", "Canada": "Ottawa",  "Chile": "Santiago", "China": "Beijing",
+            "Colombia": "Bogota", "Costa Rica": "San Jose", "Croatia": "Zagreb", "Cuba": "Havana",
+            "Czech Republic": "Prague", "Denmark": "Copenhagen", "Egypt": "Cairo", "El Salvador": "San Salvador",
+            "France": "Paris", "Germany": "Berlin", "Greece": "Athens", "India": "New Delhi",  "Italy": "Rome",
+            "Japan": "Tokyo", "Jordan": "Amman", "Mexico": "Mexico City", "Nepal": "Kathmandu",
+            "Netherlands": "Amsterdam", "Pakistan": "Islamabad",  "Peru": "Lima", "Philippines": "Manila",
+            "Poland": "Warsaw", "Portugal": "Lisbon", "Qatar": "Doha", "Romania": "Bucharest",
+            "Russia": "Moscow", "Saudi Arabia": "Riyadh", "Senegal": "Dakar", "Serbia": "Belgrade",
+            "Singapore": "Singapore", "Slovakia": "Bratislava",  "Spain": "Madrid", "Sri Lanka": "Colombo",
+            "Sweden": "Stockholm", "Switzerland": "Bern", "Thailand": "Bangkok", "Ukraine": "Kyiv",
+            "United Kingdom": "London", "United States of America": "Washington, D.C."}
 
 # Generate 20 quiz files.
 for quizNum in range(20):
