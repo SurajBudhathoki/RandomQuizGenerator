@@ -16,6 +16,8 @@ A simple python program with a script for a teacher to print 20 quizzes about co
 * Creating the answer options.
 * Writing content to the quiz and answer key files.
 
+## Sample Quiz
 
+![Sample](SampleQuiz.PNG)
 
 
